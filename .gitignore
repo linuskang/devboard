@@ -1,0 +1,12 @@
+@"
+# KiCad temporary and backup files
+.history/
+*-backups/
+*.kicad_prl
+*.lck
+~*.lck
+*.bak
+*.tmp
+_autosave-*
+fp-info-cache
+"@ | Set-Content .gitignore
